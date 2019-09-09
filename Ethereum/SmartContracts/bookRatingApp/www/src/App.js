@@ -26,11 +26,8 @@ handleVoting(book){
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to Ethereum</h1>
+          <h1 className="App-title">  Book Rating Application in Ethereum and React </h1>
         </header>
-        <p className="App-intro">
-          Book Rating Application in Ethereum and React
-        </p>
         <div>
           <ShowBooks books={this.state.books} vote={this.handleVoting}/>
         </div>
