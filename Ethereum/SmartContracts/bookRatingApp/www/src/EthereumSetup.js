@@ -8,4 +8,4 @@ web3.eth.defaultAccount = web3.eth.accounts[0];
 
 
 const ratingContract=web3.eth.contract(ratingABI).at(ratingAddress);
-export {ratingContract};
+export {ratingContract}; 
