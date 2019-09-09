@@ -18,7 +18,6 @@ handleVoting(book){
     let votes=ratingContract.totalVotesFor(book).toNumber()
     this.setState({books:this.state.books.map(
       (el)=>el.name===book? Object.assign({},el,{rating:votes}):el
-    
     )});
   }
   render() {
